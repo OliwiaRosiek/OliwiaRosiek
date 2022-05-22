@@ -650,7 +650,7 @@ robot, which uses artificial intelligence in the sorting process.” rated on 5.
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Temat" required="required"/>
+                            <input class="form-control" type="text" name="Subject" placeholder="Temat wiadomości" required="required"/>
                           </div>
                         </div>
                       </div>
