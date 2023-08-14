@@ -6,6 +6,9 @@ $(document).ready(function() {
     // uncomment below for on-scroll animations to played only once
     // once: true  
   }); // initialize animate on scroll library
+
+  document.getElementById("my-age").innerHTML = "Hello World!";
+  
 });
 
 // Smooth scroll for links with hashes
