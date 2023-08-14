@@ -1,12 +1,12 @@
 // Add your javascript here
 // Don't forget to add it into respective layouts where this js file is needed
+const DATE_OF_BIRTH = "1998-09-16";
 
 $(document).ready(function() {
   AOS.init( {
     // uncomment below for on-scroll animations to played only once
     // once: true  
   }); // initialize animate on scroll library
-  const DATE_OF_BIRTH = 1998-09-16;
   const myBirthDate = Date.parse(DATE_OF_BIRTH);
   const now = new Date();
   const difference = (now.getTime() - myBirthDate.getTime()) / (1000 * 60 * 60 * 24);
