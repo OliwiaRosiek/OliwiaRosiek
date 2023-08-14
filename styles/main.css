@@ -36,11 +36,13 @@
 .my-projects li::marker {
   color: red;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .udemy-curses li::marker {
   color: red;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .bootstrap-switch {
