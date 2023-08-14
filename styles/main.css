@@ -30,7 +30,17 @@
 }
 
 .udemy-curses li {
-  padding: 0rem 1rem;
+  padding: 0 1rem;
+}
+
+.my-projects li::before {
+  color: red;
+  font-weight: bold;
+}
+
+.udemy-curses li::before {
+  color: red;
+  font-weight: bold;
 }
 
 .bootstrap-switch {
