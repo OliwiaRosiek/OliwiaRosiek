@@ -33,12 +33,12 @@
   padding: 0 1rem;
 }
 
-.my-projects li::before {
+.my-projects li::marker {
   color: red;
   font-weight: bold;
 }
 
-.udemy-curses li::before {
+.udemy-curses li::marker {
   color: red;
   font-weight: bold;
 }
