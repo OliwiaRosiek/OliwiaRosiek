@@ -11,7 +11,7 @@ $(document).ready(function() {
   const myBirthDate = Date.parse(DATE_OF_BIRTH);
   const now = new Date();
   const difference = (now.getTime() - myBirthDate.getTime()) / (1000 * 60 * 60 * 24);
-  const differenceInYears = Math.round(difference/365.25));
+  const differenceInYears = Math.round(difference/365.25);
   document.getElementById("my-age").innerHTML = differenceInYears;
   
 });
