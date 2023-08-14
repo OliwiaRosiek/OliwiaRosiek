@@ -25,11 +25,11 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-.my-projects {
+.my-projects li {
   padding: 0.75rem 1.25rem;
 }
 
-.udemy-curses {
+.udemy-curses li {
   padding: 0rem 1rem;
 }
 
