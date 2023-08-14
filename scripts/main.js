@@ -7,13 +7,18 @@ $(document).ready(function() {
     // uncomment below for on-scroll animations to played only once
     // once: true  
   }); // initialize animate on scroll library
+  
+  document.getElementById("my-age").innerHTML = getMyAge();
+  
+});
+
+function getMyAge() {
   const myBirthDate = Date.parse(DATE_OF_BIRTH);
   const now = new Date();
   const difference = (now.getTime() - myBirthDate) / (1000 * 60 * 60 * 24);
   const differenceInYears = Math.floor(difference/365.25);
-  document.getElementById("my-age").innerHTML = differenceInYears;
-  
-});
+  return differenceInYears;
+}
 
 // Smooth scroll for links with hashes
 $('a.smooth-scroll')
