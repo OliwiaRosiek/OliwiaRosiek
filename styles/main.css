@@ -25,6 +25,11 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+.contact-background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .my-projects li {
   padding: 0.75rem 1.25rem;
 }
@@ -5164,6 +5169,7 @@ Created using IcoMoon - icomoon.io
   position: absolute;
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   z-index: -1;
